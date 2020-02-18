@@ -93,8 +93,8 @@ extension ProfileCellVM: CellProtocol {
         cell.joiningDateLabel.text = joiningDate
         cell.locationLabel.text = location
         cell.followingFollowingLabel.attributedText = setFollwersFollwingLabel()
-        cell.calenderImage.image = #imageLiteral(resourceName: "calendaer")
-        cell.locationImage.image = #imageLiteral(resourceName: "location")
+        cell.calenderImage.image = UIImage(named: "Calendar")
+        cell.locationImage.image = UIImage(named: "Location")
         return cell
     }
 }
